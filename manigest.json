@@ -1,0 +1,9 @@
+{
+    "name": "Kapibara blog by Wojciech Jarczak",
+    "short_name": "kapibaraBlog",
+    "description": "Kapibara blog made by Wojciech Jarczak enthusiast of wild animals",
+    "lang": "pl-PL",
+    "start_url": "/kapibara-blog/",
+    "scope": "/",
+    "display": "browser"
+}

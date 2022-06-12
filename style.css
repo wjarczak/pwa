@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+header {
+    background-image: url('https://logopond.com/logos/6a95ac92e5b2a6ccef86b209a1e4df17.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.kapibara {
+    padding: 20px;
+}
+
+.kapibara-img {
+    background-image: url('https://images.hindi.news18.com/ibnkhabar/uploads/2022/05/capybara-tortoise-16520969893x2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.kapibara p {
+    line-height: 1.9;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(91, 49, 6);
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+    main {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .kapibara {
+        width: 50%;
+    }
+}
+
+h1,
+h2 {
+    position: relative;
+    margin: 0;
+    padding: 2em 0 1em;
+    color: purple;
+    color: rgba(200, 200, 255, 0.5);
+    text-shadow: 0 0 5px purple, 0 0 5px purple, 0 0 5px purple;
+    text-align: center;
+    font-weight: normal;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s;
+}
