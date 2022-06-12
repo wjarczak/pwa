@@ -38,7 +38,7 @@ main {
 footer {
     padding: 20px;
     text-align: center;
-    background-color: rgb(91, 49, 6);
+    background-color: rgba(216, 70, 245, 0.5);
     color: white;
     letter-spacing: 1px;
 }
